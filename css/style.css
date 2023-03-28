@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 /*selector de etiquetas */
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
 nav{
     background-color: black;
 }
@@ -30,6 +34,13 @@ footer{
                     font-size: 1.4em;
                     text-decoration: none;
                 }
+form{
+    text-align: center;
+}
+    form div input{
+        width: 300px;
+        height: 20px;
+    }
 /*selector de clases */
 
 .logo-size{
@@ -49,4 +60,25 @@ footer{
 }
 .footer-derechos{
     font-size: 1.0em;
+}
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.contenedor-texto{
+    text-align: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.btn-contacto{
+    border: solid;
+    background-color: #0C2F5D;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
