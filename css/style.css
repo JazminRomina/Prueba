@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+/*selector de etiquetas */
+nav{
+    background-color: black;
+}
+/*selector de clases */
+
+.logo-size{
+    width: 350px;
+    height: 60px;
+}
+.nav_font-size{
+    font-family: "Play", sans-serif;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.img-banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
