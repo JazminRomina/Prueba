@@ -3,7 +3,7 @@
 /*selector de etiquetas */
 h1{
     text-align: center;
-    margin-top: 20px;
+    padding: 10px;
 }
 nav{
     background-color: black;
@@ -22,16 +22,15 @@ footer{
     }
         footer p{
             color: rgb(255, 255, 255);
-            font-size: 2em;
+            font-size: 1.7em;
         }
             footer ul li{
-                margin-top: 8px;
                 list-style: square;
                 color: white;
             }
                 footer ul li a{
                     color: white;
-                    font-size: 1.4em;
+                    font-size: 1.2em;
                     text-decoration: none;
                 }
 form{
