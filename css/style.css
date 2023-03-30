@@ -3,11 +3,18 @@
 /*selector de etiquetas */
 h1{
     text-align: center;
-    padding: 10px;
+    font-family: "Play", sans-serif;
+    margin-top: 10px;
+    font-size: 2.8em;
+}
+h2{
+    font-family: "Play", sans-serif;
+    font-size: 2.3em;
 }
 nav{
     background-color: black;
 }
+
 footer{
     background-color: black;
     display: flex;
@@ -33,6 +40,7 @@ footer{
                     font-size: 1.2em;
                     text-decoration: none;
                 }
+
 form{
     text-align: center;
 }
@@ -41,31 +49,110 @@ form{
         height: 20px;
     }
 /*selector de clases */
-
 .logo-size{
     width: 350px;
     height: 60px;
 }
+
 .nav_font-size{
     font-family: "Play", sans-serif;
     font-size: 22px;
     margin-left: 70px;
     margin-right: 10px;
 }
+
 .img-banner{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.img-index{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .footer-derechos{
     font-size: 1.0em;
 }
+/* Pagina index */
+.texto_index{
+    margin: 30px;
+    font-size: 1.4em;
+}
+.grid{
+    display: grid;
+    box-sizing: border-box;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 50px 350px 50px 350px 50px 350px 50px 350px;
+    grid-template-areas:
+    "t1 t1"
+    "t2 t2"
+    "inf1 inf1"
+    "t3 t3"
+    "inf2 inf2"
+    "t4 t4"
+    "inf3 inf3"
+    "t5 t5"
+    "inf4 inf4";
+}
+    .grid .titulo-1{
+        grid-area: t1;
+    }
+        .grid .titulo-2{
+            grid-area: t2;
+            display: flex;
+            align-items: center;
+        }
+        .grid .info-1{
+            grid-area: inf1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .grid .titulo-3{
+            grid-area: t3;
+            display: flex;
+            align-items: center;
+        }
+        .grid .info-2{
+            grid-area: inf2;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .grid .titulo-4{
+            grid-area: t4;
+            display: flex;
+            align-items: center;
+        }
+        .grid .info-3{
+            grid-area: inf3;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .grid .titulo-5{
+            grid-area: t5;
+            display: flex;
+            align-items: center;
+        }
+        .grid .info-4{
+            grid-area: inf4;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+/* Pagina Contactanos */
 .contenedor_contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
 }
+
 .contenedor_contacto-texto{
     text-align: center;
     display: flex;
