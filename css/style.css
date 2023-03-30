@@ -108,6 +108,7 @@ form{
 }
     .grid_index .titulo-1{
         grid-area: t1;
+        font-size: 1.1em;
     }
     .grid_index .titulo-2{
         grid-area: t2;
@@ -208,6 +209,10 @@ form{
         text-align: center;
     }
 /* Pagina Tienda */
+.title-principal{
+    font-size: 1.1em;
+    margin-bottom: -40px;
+}
 .productos{
     display: flex;
     flex-direction: row;
@@ -263,6 +268,8 @@ form{
 }
     .grid_actores .titulo-principal{
         grid-area: tp;
+        font-size: 1.1em;
+        margin-top: -10px;
     }
     .grid_actores .title1{
         grid-area: t-1;
@@ -304,6 +311,51 @@ form{
 }
 .title-actores{
     font-size: 1.05em;
+}
+/* Pagina HoYoverse */
+.title-hoyoverse{
+    font-size: 1.1em;
+    margin-bottom: -30px;
+}
+.contenedor-inf{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+}
+.contenedor-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedor-rs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.img-hoyoverse{
+    width: 150px;
+    height: 150px;
+}
+.subtitulo-hoyoverse{
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: -40px;
+}
+.mini-hoyoverse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+.titulo-vid{
+    font-size: 0.7em;
+    font-style: italic;
+    color: #424242bb;
+}
+.text-vid{
+    font-size: 1.1em;
+    margin: 20px;
 }
 /* Pagina Contactanos */
 .contenedor_contacto{
