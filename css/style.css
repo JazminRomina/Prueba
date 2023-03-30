@@ -11,6 +11,10 @@ h2{
     font-family: "Play", sans-serif;
     font-size: 2.3em;
 }
+h3{
+    font-family: "Play", sans-serif;
+    font-size: 2.0em;
+}
 nav{
     background-color: black;
 }
@@ -84,9 +88,9 @@ form{
 .grid{
     display: grid;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 40px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 120px 50px 350px 50px 350px 50px 350px 50px 350px;
+    grid-template-rows: 120px 50px 350px 50px 350px 50px 350px 100px 350px 50px 500px 500px 500px;
     grid-template-areas:
     "t1 t1"
     "t2 t2"
@@ -96,7 +100,11 @@ form{
     "t4 t4"
     "inf3 inf3"
     "t5 t5"
-    "inf4 inf4";
+    "inf4 inf4"
+    "t6 t6"
+    "v1 v2"
+    "v3 v4"
+    "v5 v6";
 }
     .grid .titulo-1{
         grid-area: t1;
@@ -145,6 +153,31 @@ form{
             justify-content: flex-start;
             align-items: center;
         }
+        .grid .titulo-6{
+            grid-area: t6;
+            text-align: center;
+            font-size: 1.3em;
+            box-sizing: border-box;
+        }
+        .grid .vid-1{
+            grid-area: v1;
+        }
+        .grid .vid-2{
+            grid-area: v2;
+        }
+        .grid .vid-3{
+            grid-area: v3;
+        }
+        .grid .vid-4{
+            grid-area: v4;
+        }
+        .grid .vid-5{
+            grid-area: v5;
+        }
+        .grid .vid-6{
+            grid-area: v6;
+        }
+
 /* Pagina Contactanos */
 .contenedor_contacto{
     display: flex;
