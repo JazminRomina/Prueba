@@ -85,10 +85,10 @@ form{
     margin: 30px;
     font-size: 1.4em;
 }
-.grid{
+.grid_index{
     display: grid;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 120px 50px 350px 50px 350px 50px 350px 50px 350px 80px 500px 500px 500px;
     grid-template-areas:
@@ -106,46 +106,46 @@ form{
     "v3 v4"
     "v5 v6";
 }
-    .grid .titulo-1{
+    .grid_index .titulo-1{
         grid-area: t1;
     }
-    .grid .titulo-2{
+    .grid_index .titulo-2{
         grid-area: t2;
     }
-    .grid .info-1{
+    .grid_index .info-1{
         grid-area: inf1;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
-    .grid .titulo-3{
+    .grid_index .titulo-3{
         grid-area: t3;
     }
-    .grid .info-2{
+    .grid_index .info-2{
         grid-area: inf2;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
-    .grid .titulo-4{
+    .grid_index .titulo-4{
         grid-area: t4;
     }
-    .grid .info-3{
+    .grid_index .info-3{
         grid-area: inf3;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
-    .grid .titulo-5{
+    .grid_index .titulo-5{
         grid-area: t5;
     }
-    .grid .info-4{
+    .grid_index .info-4{
         grid-area: inf4;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
-    .grid .titulo-6{
+    .grid_index .titulo-6{
         grid-area: t6;
         text-align: center;
         font-size: 1.3em;
@@ -153,7 +153,7 @@ form{
         justify-content: center;
         align-items: center;
     }
-    .grid .vid-1{
+    .grid_index .vid-1{
         grid-area: v1;
         display: flex;
         flex-direction: column;
@@ -162,7 +162,7 @@ form{
         font-size: 1.3em;
         text-align: center;
     }
-    .grid .vid-2{
+    .grid_index .vid-2{
         grid-area: v2;
         display: flex;
         flex-direction: column;
@@ -171,7 +171,7 @@ form{
         font-size: 1.3em;
         text-align: center;
     }
-    .grid .vid-3{
+    .grid_index .vid-3{
         grid-area: v3;
         display: flex;
         flex-direction: column;
@@ -180,7 +180,7 @@ form{
         font-size: 1.3em;
         text-align: center;
     }
-    .grid .vid-4{
+    .grid_index .vid-4{
         grid-area: v4;
         display: flex;
         flex-direction: column;
@@ -189,7 +189,7 @@ form{
         font-size: 1.3em;
         text-align: center;
     }
-    .grid .vid-5{
+    .grid_index .vid-5{
         grid-area: v5;
         display: flex;
         flex-direction: column;
@@ -198,7 +198,7 @@ form{
         font-size: 1.3em;
         text-align: center;
     }
-    .grid .vid-6{
+    .grid_index .vid-6{
         grid-area: v6;
         display: flex;
         flex-direction: column;
@@ -246,7 +246,65 @@ form{
     margin: 30px;
 }
 /* Pagina Actores */
-
+.grid_actores{
+    display: grid;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 100px 400px 400px 120px 400px 400px;
+    grid-template-areas:
+    "tp tp"
+    "t-1 t-1"
+    "a1 a1"
+    "a2 a2"
+    "t-2 t-2"
+    "a3 a3"
+    "a4 a4";
+}
+    .grid_actores .titulo-principal{
+        grid-area: tp;
+    }
+    .grid_actores .title1{
+        grid-area: t-1;
+    }
+    .grid_actores .actor-1{
+        grid-area: a1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .grid_actores .actor-2{
+        grid-area: a2;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .grid_actores .title2{
+        grid-area: t-2;
+    }
+    .grid_actores .actor-3{
+        grid-area: a3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .grid_actores .actor-4{
+        grid-area: a4;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+.img-actores{
+    height: 350px;
+    width: 560px;
+}
+.text-actores{
+    font-size: 1.2em;
+    margin: 20px;
+}
+.title-actores{
+    font-size: 1.05em;
+}
 /* Pagina Contactanos */
 .contenedor_contacto{
     display: flex;
