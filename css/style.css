@@ -85,6 +85,10 @@ form{
     margin: 30px;
     font-size: 1.4em;
 }
+.video-index{
+    width: 620px;
+    height: 350px;
+}
 .grid_index{
     display: grid;
     box-sizing: border-box;
@@ -356,6 +360,10 @@ form{
 .text-vid{
     font-size: 1.1em;
     margin: 20px;
+}
+.video-hoyoverse{
+    width: 560px;
+    height: 315px;
 }
 /* Pagina Contactanos */
 .contenedor_contacto{
