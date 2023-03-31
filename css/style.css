@@ -378,6 +378,10 @@ form{
     display: flex;
 }
 
+.titulo-contacto{
+    text-align: center;
+}
+
 .btn-contacto{
     border: solid;
     background-color: #0C2F5D;
