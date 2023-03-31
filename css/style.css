@@ -699,7 +699,7 @@ footer{
     }
 }
 /* 3er Breakpoint */
-@media(max-width: 480px){
+@media(max-width: 425px){
 /* pagina index */
 .texto_index{
     margin: 30px;
@@ -888,7 +888,7 @@ height: 85vh;
 }
 }
 /* 4to Breakpoint */
-@media(max-width: 395px){
+@media(max-width: 375px){
 /* pagina index */
 .texto_index{
     margin: 20px;
