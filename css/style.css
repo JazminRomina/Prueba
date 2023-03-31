@@ -806,7 +806,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
     }
     .grid_index .vid-2{
@@ -814,7 +814,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
     }
     .grid_index .vid-3{
@@ -822,7 +822,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
     }
     .grid_index .vid-4{
@@ -838,7 +838,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
     }
     .grid_index .vid-6{
@@ -846,7 +846,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1.3em;
+        font-size: 1.2em;
         text-align: center;
     }
 /* Pagina Tienda */
@@ -891,13 +891,13 @@ height: 85vh;
 @media(max-width: 395px){
 /* pagina index */
 .texto_index{
-    margin: 30px;
+    margin: 20px;
     font-size: 0.8em;
     text-align: center;
 }
 .video-index{
-    width: 360px;
-    height: 200px;
+    width: 320px;
+    height: 180px;
 }
 .img-index{
     width: 300px;
