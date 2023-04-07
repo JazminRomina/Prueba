@@ -393,7 +393,7 @@ form{
     margin-top: 10px;
 }
 .tamano-mensaje{
-    width: 100%;
+    width: 300px;
     height: 300px;
 }
 /* 1er Breakpoint */
@@ -1216,10 +1216,5 @@ form{
     }
     .img-banner{
     height: 85vh;
-    }
-    /* Pagina contactanos */
-    .tamano-mensaje{
-        max-width: 75%;
-        height: 150px;
     }
     }
