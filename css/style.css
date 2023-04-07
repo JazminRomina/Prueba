@@ -1219,7 +1219,7 @@ form{
     }
     /* Pagina contactanos */
     .tamano-mensaje{
-        width: 75%;
+        max-width: 75%;
         height: 150px;
     }
     }
