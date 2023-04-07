@@ -1218,5 +1218,8 @@ form{
     height: 85vh;
     }
     /* Pagina contactanos */
-
+    .tamano-mensaje{
+        width: 75%;
+        height: 150px;
+    }
     }
