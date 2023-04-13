@@ -1,13 +1,13 @@
 footer{
-    background-color: black;
-    display: flex;
-    align-items: center;
+    background-color: $mainBg;
+    display: $d;
+    align-items: $centro;
     justify-content: space-around;
     padding: 20px;
     img{
         width: 280px;
         height: 55px;
-        display: flex;
+        display: $d;
     }
     p{
         color: rgb(255, 255, 255);
@@ -25,6 +25,6 @@ footer{
         }
     }
     .footer-derechos{
-        font-size: 1.0em;
+        font-size: $sizeS;
     }
 }

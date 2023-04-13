@@ -1,8 +1,8 @@
 nav{
-    background-color: black;
+    background-color: $mainBg;
     .nav_font-size{
         font-family: $mainFont;
-        font-size: 1.3em;
+        font-size: $sizeSS;
         margin-left: 50px;
         margin-right: 10px;
     }

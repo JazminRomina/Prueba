@@ -25,122 +25,122 @@
     "v6";
     .texto_index{
         margin: 30px;
-        font-size: 1.1em;
-        text-align: center;
+        font-size: $sizeMD;
+        text-align: $centro;
     }
     .titulo-1{
         grid-area: t1;
         font-size: 0.9em;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-2{
         grid-area: t2;
-        text-align: center;
+        text-align: $centro;
         margin-top: 10px;
     }
     .info-1{
         grid-area: inf1;
-        justify-content: center;
+        justify-content: $centro;
         flex-direction: column-reverse;
         margin-top: -20px;
     }
     .titulo-3{
         grid-area: t3;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
         margin-top: 10px;
     }
     .info-2{
         grid-area: inf2;
-        justify-content: center;
+        justify-content: $centro;
         flex-direction: column-reverse;
         margin-top: -20px;
     }
     .titulo-4{
         grid-area: t4;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
         margin-top: 10px;
     }
     .info-3{
         grid-area: inf3;
-        justify-content: center;
+        justify-content: $centro;
         flex-direction: column-reverse;
         margin-top: -20px;
     }
     .titulo-5{
         grid-area: t5;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
         margin-top: 10px;
     }
     .info-4{
         grid-area: inf4;
-        justify-content: center;
+        justify-content: $centro;
         flex-direction: column-reverse;
         margin-top: -20px;
     }
     .titulo-6{
         grid-area: t6;
-        text-align: center;
+        text-align: $centro;
         margin-top: 60px;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-1{
         grid-area: v1;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
     .vid-2{
         grid-area: v2;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
     .vid-3{
         grid-area: v3;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
     .vid-4{
         grid-area: v4;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
     .vid-5{
         grid-area: v5;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
     .vid-6{
         grid-area: v6;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.3em;
-        text-align: center;
+        justify-content: $centro;
+        align-items: $centro;
+        font-size: $sizeSS;
+        text-align: $centro;
     }
 }
 // page hoyoverse
 .contenedor-inf{
     .contenedor-img{
-        justify-content: center;
+        justify-content: $centro;
         flex-direction: column;
-        align-items: center;
+        align-items: $centro;
         .img-lugar{
             padding: 10px;
         }
@@ -236,16 +236,16 @@ header{
 }
 // page tienda
 .tituloTienda{
-    font-size: 1.1em;
+    font-size: $sizeMD;
     margin-bottom: -20px;
-    text-align: center;
+    text-align: $centro;
 }
 .subTituloTienda{
-    text-align: left;
+    text-align: $derecho;
     margin: 40px;
 }
 .centro{
-    text-align: center;
+    text-align: $centro;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -259,7 +259,7 @@ header{
         margin-top: 20px;
         margin: 10px;
         p{
-            font-size: 1em;
+            font-size: $sizeS;
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -284,54 +284,54 @@ header{
         width: 280px;
     }
     .textActores{
-        font-size: 1.1em;
+        font-size: $sizeMD;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .subTitleActores{
         font-size: 0.9em;
     }
     .titulo-principal{
         grid-area: tp;
-        font-size: 1em;
+        font-size: $sizeS;
         margin-top: -10px;
     }
     .title1{
         grid-area: t-1;
-        font-size: 1em;
-        text-align: center;
+        font-size: $sizeS;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         margin-top: 20px;
         padding: 20px;
-        font-size: 1em;
+        font-size: $sizeS;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 // page hoyoverse
@@ -345,12 +345,12 @@ header{
 }
 .contenedor-rs{
     flex-direction: column-reverse;
-    align-items: center;
+    align-items: $centro;
     padding: 30px;
 }
 .subtitulo-hoyoverse{
     font-size: 1.2em;
-    text-align: center;
+    text-align: $centro;
     margin-left: 50px;
     margin-bottom: -40px;
 }
@@ -360,11 +360,11 @@ header{
 // footer
 footer{
     flex-direction: column;
-    align-items: center;
+    align-items: $centro;
     padding: 20px;
 }
     footer p{
-        font-size: 1.3em;
+        font-size: $sizeSS;
     }
 // page index
 .grid_index{
@@ -389,7 +389,7 @@ footer{
     "v6";
     .texto_index{
         margin: 20px;
-        font-size: 1em;
+        font-size: $sizeS;
     }
     .video-index{
         width: 560px;
@@ -467,9 +467,9 @@ footer{
         width: 280px;
     }
     .textActores{
-        font-size: 1em;
+        font-size: $sizeS;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -478,40 +478,40 @@ footer{
     }
     .title1{
         grid-area: t-1;
-        font-size: 1em;
-        text-align: center;
+        font-size: $sizeS;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        font-size: 1em;
-        justify-content: center;
+        align-items: $centro;
+        font-size: $sizeS;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
-        font-size: 1em;
+        font-size: $sizeS;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 }
@@ -547,7 +547,7 @@ nav{
     "v6";
     .texto_index{
         margin: 30px;
-        font-size: 1em;
+        font-size: $sizeS;
     }
     .video-index{
         width: 410px;
@@ -591,7 +591,7 @@ nav{
     }
     .titulo-6{
         grid-area: t6;
-        font-size: 1em;
+        font-size: $sizeS;
     }
     .vid-1{
         grid-area: v1;
@@ -630,9 +630,9 @@ nav{
         width: 280px;
     }
     .textActores{
-        font-size: 1em;
+        font-size: $sizeS;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -642,49 +642,49 @@ nav{
     .title1{
         grid-area: t-1;
         font-size: 0.9em;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
         font-size: 0.9em;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 // page hoyoverse
 .title-hoyoverse{
-    font-size: 1em;
+    font-size: $sizeS;
 }
 .subtitulo-hoyoverse{
-    font-size: 1em;
+    font-size: $sizeS;
 }
 .contenedor-inf{
-    font-size: 1em;
+    font-size: $sizeS;
 }
 .contenedor-rs{
     .video-hoyoverse{
@@ -692,13 +692,13 @@ nav{
         height: 260px;
     }
     .mini-hoyoverse{
-        justify-content: center;
+        justify-content: $centro;
     }
     .titulo-vid{
         font-size: 0.65em;
     }
     .text-vid{
-        font-size: 1em;
+        font-size: $sizeS;
         margin: 20px;
     }
 }
@@ -778,7 +778,7 @@ nav{
     }
     .titulo-6{
         grid-area: t6;
-        font-size: 1em;
+        font-size: $sizeS;
         margin-top: 60px;
     }
     .vid-1{
@@ -808,12 +808,12 @@ header{
 }
 // page tienda
 .tituloTienda{
-    font-size: 1em;
+    font-size: $sizeS;
     margin-bottom: -20px;
 }
 .subTituloTienda{
     font-size: 0.9em;
-    text-align: center;
+    text-align: $centro;
     margin: 20px;
 }
 .productos{
@@ -826,7 +826,7 @@ header{
         margin-top: 20px;
         margin: 10px;
         p{
-            font-size: 1em;
+            font-size: $sizeS;
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -856,7 +856,7 @@ header{
     .textActores{
         font-size: 0.9em;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -866,38 +866,38 @@ header{
     .title1{
         grid-area: t-1;
         font-size: 0.8em;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
         font-size: 0.8em;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 // page hoyoverse
@@ -923,7 +923,7 @@ header{
         height: 120px;
     }
     .text-vid{
-        text-align: center;
+        text-align: $centro;
     }
 }
 }
@@ -1061,7 +1061,7 @@ nav{
     .textActores{
         font-size: 0.8em;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -1071,38 +1071,38 @@ nav{
     .title1{
         grid-area: t-1;
         font-size: 0.8em;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
         font-size: 0.8em;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 }
@@ -1194,37 +1194,37 @@ nav{
     }
     .vid-1{
         grid-area: v1;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-2{
         grid-area: v2;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-3{
         grid-area: v3;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-4{
         grid-area: v4;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-5{
         grid-area: v5;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-6{
         grid-area: v6;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
 }
 // page tienda
 .tituloPrincipal{
-    font-size: 1em;
+    font-size: $sizeS;
     margin-bottom: -20px;
-    text-align: center;
+    text-align: $centro;
 }
 .subTituloTienda{
-    text-align: center;
+    text-align: $centro;
     margin: 20px;
     margin-bottom: -20px;
     font-size: 0.8em;
@@ -1274,7 +1274,7 @@ nav{
     .textActores{
         font-size: 0.75em;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -1284,38 +1284,38 @@ nav{
     .title1{
         grid-area: t-1;
         font-size: 0.75em;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 10px;
         font-size: 0.75em;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 }
@@ -1413,27 +1413,27 @@ footer{
     }
     .vid-1{
         grid-area: v1;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-2{
         grid-area: v2;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-3{
         grid-area: v3;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-4{
         grid-area: v4;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-5{
         grid-area: v5;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
     .vid-6{
         grid-area: v6;
-        font-size: 1.1em;
+        font-size: $sizeMD;
     }
 }
 // page actores
@@ -1457,7 +1457,7 @@ footer{
     .textActores{
         font-size: 0.75em;
         margin: 20px;
-        text-align: center;
+        text-align: $centro;
     }
     .titulo-principal{
         grid-area: tp;
@@ -1467,38 +1467,38 @@ footer{
     .title1{
         grid-area: t-1;
         font-size: 0.73em;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
     }
     .actor-1{
         grid-area: a1;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-2{
         grid-area: a2;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .title2{
         grid-area: t-2;
-        text-align: center;
+        text-align: $centro;
         padding: 20px;
         font-size: 0.73em;
     }
     .actor-3{
         grid-area: a3;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
     .actor-4{
         grid-area: a4;
         flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
+        align-items: $centro;
+        justify-content: $centro;
     }
 }
 // page hoyoverse

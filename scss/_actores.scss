@@ -25,7 +25,7 @@
     }
     .titulo-principal{
         grid-area: tp;
-        font-size: 1.1em;
+        font-size: $sizeMD;
         margin-top: -10px;
     }
     .title1{
@@ -33,29 +33,21 @@
     }
     .actor-1{
         grid-area: a1;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        @include actores (flex, flex-start, center);
     }
     .actor-2{
         grid-area: a2;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        @include actores (flex, flex-start, center);
     }
     .title2{
         grid-area: t-2;
     }
     .actor-3{
         grid-area: a3;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        @include actores (flex, flex-start, center);
     }
     .actor-4{
         grid-area: a4;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        @include actores (flex, flex-start, center);
     }
 }

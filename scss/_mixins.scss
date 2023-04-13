@@ -1,0 +1,19 @@
+@mixin text ($display,$ta,$ai){
+    display: $display;
+    text-align: $ta;
+    align-items: $ai;
+}
+@mixin actores ($display,$jc,$ai){
+    display: $display;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin boton ($border,$bg,$color,$br,$pd,$mb,$mt){
+    border: $border;
+    background-color: $bg;
+    color: $color;
+    border-radius: $br;
+    padding: $pd;
+    margin-bottom: $mb;
+    margin-top: $mt;
+}

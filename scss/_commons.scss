@@ -1,14 +1,14 @@
 h1{
     font-family: $mainFont;
     margin-top: 10px;
-    font-size: 2.8em;
-    text-align: center;
+    font-size: $fontSizeA;
+    text-align: $centro;
 }
 h2{
     font-family: $mainFont;
-    font-size: 2.2em;
+    font-size: $fontSizeB;
 }
 h3{
     font-family: $mainFont;
-    font-size: 1.9em;
+    font-size: $fontSizeC;
 }

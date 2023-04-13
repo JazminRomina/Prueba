@@ -1,20 +1,20 @@
 .tituloTienda{
-    font-size: 1.1em;
+    font-size: $sizeMD;
     margin-bottom: -30px;
-    text-align: center;
+    text-align: $centro;
 }
 .subTituloTienda{
-    text-align: left;
+    text-align: $derecho;
     margin: 30px;
 }
 .centro{
-    text-align: center;
+    text-align: $centro;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .productos{
-    display: flex;
+    display: $d;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -24,7 +24,7 @@
         margin-top: 20px;
         margin: 10px;
         p{
-            font-size: 1em;
+            font-size: $sizeS;
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -32,12 +32,7 @@
             font-size: 1.4em;
         }
         button{
-            border: solid;
-            background-color: #0C2F5D;
-            color: white;
-            border-radius: 8px;
-            padding: 10px;
-            margin-bottom: 10px;
+            @include boton (solid,#0C2F5D,white,8px,10px,10px,0px);
         }
     }
 }
