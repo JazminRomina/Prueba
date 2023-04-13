@@ -1,0 +1,53 @@
+.title-hoyoverse{
+    font-size: 1.1em;
+    margin-bottom: -30px;
+    text-align: center;
+}
+.contenedor-inf{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+    .contenedor-img{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .img-lugar{
+            width: 500px;
+            height: 350px;
+        }
+    }
+}
+.subtitulo-hoyoverse{
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: -40px;
+}
+.contenedor-rs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    .video-hoyoverse{
+        width: 560px;
+        height: 315px;
+    }
+    .mini-hoyoverse{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+    .img-hoyoverse{
+        width: 150px;
+        height: 150px;
+    }
+    .titulo-vid{
+        font-size: 0.7em;
+        font-style: italic;
+        color: #424242bb;
+    }
+    .text-vid{
+        font-size: 1.1em;
+        margin: 20px;
+    }
+}
