@@ -25,7 +25,7 @@
     "v6";
     .texto_index{
         margin: 30px;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
         text-align: $centro;
     }
     .titulo-1{
@@ -84,14 +84,14 @@
         grid-area: t6;
         text-align: $centro;
         margin-top: 60px;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-1{
         grid-area: v1;
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
     .vid-2{
@@ -99,7 +99,7 @@
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
     .vid-3{
@@ -107,7 +107,7 @@
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
     .vid-4{
@@ -115,7 +115,7 @@
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
     .vid-5{
@@ -123,7 +123,7 @@
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
     .vid-6{
@@ -131,7 +131,7 @@
         flex-direction: column;
         justify-content: $centro;
         align-items: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         text-align: $centro;
     }
 }
@@ -236,7 +236,7 @@ header{
 }
 // page tienda
 .tituloTienda{
-    font-size: $sizeMD;
+    font-size: map-get($map: $fontSize, $key: siete );
     margin-bottom: -20px;
     text-align: $centro;
 }
@@ -259,7 +259,7 @@ header{
         margin-top: 20px;
         margin: 10px;
         p{
-            font-size: $sizeS;
+            font-size: map-get($map: $fontSize, $key: ocho );
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -284,7 +284,7 @@ header{
         width: 280px;
     }
     .textActores{
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
         margin: 20px;
         text-align: $centro;
     }
@@ -293,12 +293,12 @@ header{
     }
     .titulo-principal{
         grid-area: tp;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         margin-top: -10px;
     }
     .title1{
         grid-area: t-1;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         text-align: $centro;
         padding: 20px;
     }
@@ -319,7 +319,7 @@ header{
         text-align: $centro;
         margin-top: 20px;
         padding: 20px;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
     }
     .actor-3{
         grid-area: a3;
@@ -349,7 +349,7 @@ header{
     padding: 30px;
 }
 .subtitulo-hoyoverse{
-    font-size: 1.2em;
+    font-size: map-get($map: $fontSize, $key: seis );
     text-align: $centro;
     margin-left: 50px;
     margin-bottom: -40px;
@@ -364,7 +364,7 @@ footer{
     padding: 20px;
 }
     footer p{
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
 // page index
 .grid_index{
@@ -389,7 +389,7 @@ footer{
     "v6";
     .texto_index{
         margin: 20px;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
     }
     .video-index{
         width: 560px;
@@ -467,7 +467,7 @@ footer{
         width: 280px;
     }
     .textActores{
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         margin: 20px;
         text-align: $centro;
     }
@@ -478,7 +478,7 @@ footer{
     }
     .title1{
         grid-area: t-1;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         text-align: $centro;
         padding: 20px;
     }
@@ -486,7 +486,7 @@ footer{
         grid-area: a1;
         flex-direction: column-reverse;
         align-items: $centro;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         justify-content: $centro;
     }
     .actor-2{
@@ -499,7 +499,7 @@ footer{
         grid-area: t-2;
         text-align: $centro;
         padding: 20px;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
     }
     .actor-3{
         grid-area: a3;
@@ -547,7 +547,7 @@ nav{
     "v6";
     .texto_index{
         margin: 30px;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
     }
     .video-index{
         width: 410px;
@@ -591,7 +591,7 @@ nav{
     }
     .titulo-6{
         grid-area: t6;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
     }
     .vid-1{
         grid-area: v1;
@@ -630,7 +630,7 @@ nav{
         width: 280px;
     }
     .textActores{
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         margin: 20px;
         text-align: $centro;
     }
@@ -678,13 +678,13 @@ nav{
 }
 // page hoyoverse
 .title-hoyoverse{
-    font-size: $sizeS;
+    font-size: map-get($map: $fontSize, $key: ocho );
 }
 .subtitulo-hoyoverse{
-    font-size: $sizeS;
+    font-size: map-get($map: $fontSize, $key: ocho );
 }
 .contenedor-inf{
-    font-size: $sizeS;
+    font-size: map-get($map: $fontSize, $key: ocho );
 }
 .contenedor-rs{
     .video-hoyoverse{
@@ -698,7 +698,7 @@ nav{
         font-size: 0.65em;
     }
     .text-vid{
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         margin: 20px;
     }
 }
@@ -778,7 +778,7 @@ nav{
     }
     .titulo-6{
         grid-area: t6;
-        font-size: $sizeS;
+        font-size: map-get($map: $fontSize, $key: ocho );
         margin-top: 60px;
     }
     .vid-1{
@@ -808,7 +808,7 @@ header{
 }
 // page tienda
 .tituloTienda{
-    font-size: $sizeS;
+    font-size: map-get($map: $fontSize, $key: ocho );
     margin-bottom: -20px;
 }
 .subTituloTienda{
@@ -826,7 +826,7 @@ header{
         margin-top: 20px;
         margin: 10px;
         p{
-            font-size: $sizeS;
+            font-size: map-get($map: $fontSize, $key: ocho );
             margin-bottom: 10px;
             margin-top: 10px;
         }
@@ -1017,27 +1017,27 @@ nav{
     }
     .vid-1{
         grid-area: v1;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
     .vid-2{
         grid-area: v2;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
     .vid-3{
         grid-area: v3;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
     .vid-4{
         grid-area: v4;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
     .vid-5{
         grid-area: v5;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
     .vid-6{
         grid-area: v6;
-        font-size: 1.2em;
+        font-size: map-get($map: $fontSize, $key: seis );
     }
 }
 // page actores
@@ -1194,32 +1194,32 @@ nav{
     }
     .vid-1{
         grid-area: v1;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-2{
         grid-area: v2;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-3{
         grid-area: v3;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-4{
         grid-area: v4;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-5{
         grid-area: v5;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-6{
         grid-area: v6;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
 }
 // page tienda
 .tituloPrincipal{
-    font-size: $sizeS;
+    font-size: map-get($map: $fontSize, $key: ocho );
     margin-bottom: -20px;
     text-align: $centro;
 }
@@ -1413,27 +1413,27 @@ footer{
     }
     .vid-1{
         grid-area: v1;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-2{
         grid-area: v2;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-3{
         grid-area: v3;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-4{
         grid-area: v4;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-5{
         grid-area: v5;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
     .vid-6{
         grid-area: v6;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
     }
 }
 // page actores

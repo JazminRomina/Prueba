@@ -20,7 +20,7 @@
     "v5 v6";
     .texto_index{
         margin: 30px;
-        font-size: 1.4em;
+        font-size: map-get($map: $fontSize, $key: cuatro );
     }
     .video-index{
         width: 620px;
@@ -33,7 +33,7 @@
     }
     .titulo-1{
         grid-area: t1;
-        font-size: $sizeMD;
+        font-size: map-get($map: $fontSize, $key: siete );
         text-align: $centro;
     }
     .titulo-2{
@@ -75,7 +75,7 @@
     .titulo-6{
         grid-area: t6;
         @include text (flex, center, center);
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         justify-content: $centro;
     }
     .vid-1{
@@ -83,42 +83,42 @@
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
     .vid-2{
         grid-area: v2;
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
     .vid-3{
         grid-area: v3;
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
     .vid-4{
         grid-area: v4;
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
     .vid-5{
         grid-area: v5;
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
     .vid-6{
         grid-area: v6;
         @include text (flex, center, center);
         flex-direction: column;
         justify-content: $centro;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
     }
 }
 

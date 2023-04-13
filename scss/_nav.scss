@@ -2,7 +2,7 @@ nav{
     background-color: $mainBg;
     .nav_font-size{
         font-family: $mainFont;
-        font-size: $sizeSS;
+        font-size: map-get($map: $fontSize, $key: cinco );
         margin-left: 50px;
         margin-right: 10px;
     }

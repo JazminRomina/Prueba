@@ -19,5 +19,5 @@ form{
 }
 
 .btn-contacto{
-    @include boton (solid,#0C2F5D,white,10px,8px,20px,10px);
+    @extend .btn-contacto;
 }
