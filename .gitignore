@@ -1,5 +1,6 @@
-.vsc
-.log
-.psd
-.ai
-.node_modules/
+node_modules/
+*.vsc
+*.log
+*.psd
+*.ai
+*main.css.map
